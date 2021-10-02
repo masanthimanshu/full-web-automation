@@ -17,8 +17,8 @@ def gitCommit() :
     os.system("git add.")
     os.system("git commit -m \" Auto Commit \" ")
 
-def nodemonInit(name) :
-    os.system("code " + name)
+def nodemonInit() :
+    os.system("code .")
     os.system("clear")
     webbrowser.open('http://localhost:3000', new=2)
-    os.system("nodemon " + name + "/app.js")
+    os.system("nodemon app.js")

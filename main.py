@@ -72,8 +72,7 @@ f.write(node)
 f.close()
 
 nodeCommands()
+
 gitCommit()
 
-goBack()
-
-nodemonInit(projectName)
+nodemonInit()
