@@ -22,3 +22,8 @@ def nodemonInit() :
     os.system("clear")
     webbrowser.open('http://localhost:3000', new=2)
     os.system("nodemon app.js")
+
+def runBuild() :
+    nodeCommands()
+    gitCommit()
+    nodemonInit()

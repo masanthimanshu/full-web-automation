@@ -71,8 +71,4 @@ f = open("app.js", "w")
 f.write(node)
 f.close()
 
-nodeCommands()
-
-gitCommit()
-
-nodemonInit()
+runBuild()
